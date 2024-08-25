@@ -23,7 +23,7 @@ The data file `onlinefraud.csv` should be placed in the root directory of the pr
 
 To run this project locally, you'll need to have Python installed. Follow these steps to set up the environment:
 
-1.** Clone the Repository:**
+1. **Clone the Repository:**
 ```bash
 git clone https://github.com/Vaibhav-kesarwani/Online_Payment_Fraud_Detection.git
 cd Online_Payment_Fraud_Detection
