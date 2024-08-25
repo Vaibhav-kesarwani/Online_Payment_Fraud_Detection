@@ -102,6 +102,13 @@ Here is an overview of the project directory structure:
 
 ```lua
 Online_Payment_Fraud_Detection/
+├── Images
+│   └── visualise.png
+│
+├── main.ipynb                # Jupyter notebooks (Source code)
+├── onlinefraud.csv           # Kaggle Dataset
+├── .gitattributes            # For handle the large files in gihub
+├── .gitignore                # Ignore the unwanted file like .venv
 ├── requirements.txt          # List of dependencies
 ├── CODE_OF_CONDUCT.md        # Contributing guidelines
 ├── README.md                 # Project documentation
