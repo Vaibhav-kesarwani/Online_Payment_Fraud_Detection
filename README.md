@@ -97,6 +97,16 @@ features = np.array([[4, 9000.60, 9000.60, 0.0]])
 print(model.predict(features))
 ```
 
+## File Structure
+Here is an overview of the project directory structure:
+
+```lua
+Online_Payment_Fraud_Detection/
+├── requirements.txt          # List of dependencies
+├── CODE_OF_CONDUCT.md        # Contributing guidelines
+├── README.md                 # Project documentation
+└── LICENSE                   # License file
+```
 
 
 
