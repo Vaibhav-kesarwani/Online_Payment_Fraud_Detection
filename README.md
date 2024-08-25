@@ -115,7 +115,34 @@ Online_Payment_Fraud_Detection/
 └── LICENSE                   # License file
 ```
 
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
+- Fork the repository & Star the repository
+- Create a new branch (git checkout -b feature)
+- Make your changes
+- Commit your changes (git commit -am 'Add new feature')
+- Push to the branch (git push origin feature)
+- Create a new Pull Request
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Vaibhav-kesarwani/Online_Payment_Fraud_Detection/blob/main/LICENSE) file for details.
+
+## Acknowledgements
+1. [Pandas](https://pandas.pydata.org/)
+2. [Sklearn](https://scikit-learn.org/stable/)
+3. [Kaggle](https://www.kaggle.com/datasets)
+4. [NumPy](https://numpy.org/)
+5. [Plotly](https://plotly.com/)
+
+## Contact
+If you have any questions or suggestions, feel free to reach out to me at :
+1. [GitHub](https://github.com/Vaibhav-kesarwani)
+2. [Linkedin](https://www.linkedin.com/in/vaibhav-kesarwani-9b5b35252/)
+3. [Twitter](https://twitter.com/Vaibhav_k__)
+4. [Portfolio](https://vaibhavkesarwani.vercel.app)
+
+**Happy Coding!** <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" alt="Fire" width="30" align=center /><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="30" align=center />
 
 
 
