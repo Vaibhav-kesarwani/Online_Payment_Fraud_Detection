@@ -51,6 +51,47 @@ python main.ipynb
 ```
 3. **Output:** The script will print the first few rows of the dataset to the console, showing the text samples and their associated emotion labels.
 
+## Transaction Type Distribution Visualization
+
+To understand the distribution of different transaction types within the dataset, a pie chart was created using Plotly Express. This chart provides a clear visual representation of the proportion of each transaction type, such as 'fraudulent' and 'legitimate,' in the dataset.
+
+The steps involved include:
+- Counting the occurrences of each transaction type.
+- Extracting the transaction types and their respective counts.
+- Creating a donut-style pie chart to visualize the distribution, with a hole in the center to emphasize the relative sizes of each slice.
+
+The resulting chart helps in quickly identifying which transaction type is more prevalent, offering valuable insights into the dataset's composition.
+
+```python
+type = data['type'].value_counts()
+transactions = type.index
+quantity = type.values
+
+import plotly.express as px # type: ignore
+figure = px.pie(data, values = quantity, names = transactions, hole = 0.5, title = "Distribution of Transaction Type")
+figure.show()
+```
+<br />
+
+![visualise](https://github.com/user-attachments/assets/342d97d0-d6b3-4d08-abee-993cf87f5855)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
