@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 ### Running the Project
 To run the Text Emotion Classifier, follow these steps:
-1. **Prepare the Dataset:** Ensure that your `onlinefraud.csv` file is in the root directory. This file should contain the text data and corresponding labels, separated by a semicolon (;).
+1. **Prepare the Dataset:** Ensure that your `onlinefraud.csv` file is in the root directory. This file should contain the text data and corresponding labels, separated by a comma `(,)`.
 2. **Run the Script:** Execute the main script to load the data and perform emotion classification
 ```bash
 python main.ipynb
