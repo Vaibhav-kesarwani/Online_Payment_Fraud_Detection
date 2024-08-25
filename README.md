@@ -87,7 +87,15 @@ model.fit(xtrain, ytrain)
 model.score(xtest, ytest)
 ```
 
+## Prediction
+After training the model, you can use it to predict emotions from new text inputs. Implement the prediction logic in a separate script or extend `main.ipynb` to include a prediction function.
 
+```python
+# Prediction
+# features = [type, amount, oldbalanceOrg, newbalanceOrig]
+features = np.array([[4, 9000.60, 9000.60, 0.0]])
+print(model.predict(features))
+```
 
 
 
