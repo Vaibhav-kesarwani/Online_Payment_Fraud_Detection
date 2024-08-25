@@ -75,9 +75,17 @@ figure.show()
 
 ![visualise](https://github.com/user-attachments/assets/342d97d0-d6b3-4d08-abee-993cf87f5855)
 
+## Model Training
+The model training is performed within the `main.ipynb` script, which processes the text data and trains a Sequential model using sklearn. You can modify the model architecture, training parameters, or the data processing steps within this script.
 
-
-
+```python
+# Training the machine learning model
+from sklearn.tree import DecisionTreeClassifier # type: ignore
+xtrain, xtest, ytrain, ytest = train_test_split(x, y, test_size = 0.20, random_state = 42)
+model = DecisionTreeClassifier()
+model.fit(xtrain, ytrain)
+model.score(xtest, ytest)
+```
 
 
 
